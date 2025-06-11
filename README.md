@@ -18,14 +18,14 @@ This folder contains the implementation of the EZ-CDM method for parameter recov
 
 ---
 
-### 4. `KS_Optimization/`
+### 3. `KS_Optimization/`
 This folder contains the implementation of the Kolmogorov-Smirnov (KS) optimization method for CDMs.
 
 - **`KSOptimizeCDM.py`**: Implements the KS statistic as an objective function for parameter recovery in CDMs. It calculates the maximum difference between empirical and model-based cumulative distributions.
 
 ---
 
-### 5. `MLE_Optimization/`
+### 4. `MLE_Optimization/`
 This folder contains the implementation of Maximum Likelihood Estimation (MLE) for CDMs, along with utility functions and testing scripts.
 
 - **`MLECDM.py`**: Implements the MLE objective function and optimization routines for CDMs. It uses differential evolution to optimize parameters.
@@ -34,7 +34,7 @@ This folder contains the implementation of Maximum Likelihood Estimation (MLE) f
 
 ---
 
-### 6. `Literature/`
+### 5. `Literature/`
 This folder contains relevant research papers and references used in the development of the framework.
 
 - Example files:
@@ -52,7 +52,6 @@ This folder contains relevant research papers and references used in the develop
   - Chi-Squared Optimization
   - Kolmogorov-Smirnov (KS) Optimization
   - EZ-CDM Simplified Optimization
-  - Hierarchical Sequential Diffusion Model (HSDM) Optimization
 - **Parallelization**: Leverages multiprocessing for efficient computation.
 - **Visualization**: Includes plotting utilities for parameter recovery and comparison.
 
