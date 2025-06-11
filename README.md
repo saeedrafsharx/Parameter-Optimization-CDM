@@ -18,14 +18,6 @@ This folder contains the implementation of the EZ-CDM method for parameter recov
 
 ---
 
-### 3. `HSDM_Optimization/`
-This folder contains the implementation of the Hierarchical Sequential Diffusion Model (HSDM) optimization.
-
-- **`HSDM_fpt.py`**: Implements the first-passage time density calculation for HSDMs.
-- **`HSDMCDM.py`**: Contains the log-likelihood calculation and optimization routines for HSDMs. It uses the first-passage time density to compute the likelihood of observed data.
-
----
-
 ### 4. `KS_Optimization/`
 This folder contains the implementation of the Kolmogorov-Smirnov (KS) optimization method for CDMs.
 
